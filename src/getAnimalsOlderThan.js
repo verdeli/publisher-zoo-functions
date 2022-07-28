@@ -1,4 +1,5 @@
 const data = require('../data/zoo_data');
+
 console.log(data);
 function getAnimalsOlderThan(animal, age) {
   // seu código aqui
