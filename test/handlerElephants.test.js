@@ -32,8 +32,6 @@ describe('Testes da função HandlerElephants', () => {
     expect(actual).toEqual(expected);
   });
   it('Retorna um array com a relação dos nomes de todos os elefantes.', () => {
-    const actual = handlerElephants('names');
-    const expected = ['Ilana','Orval','Bea','Jefferson'];
-    expect(actual).toEqual(expected);
+    expect(handlerElephants('names')).toEqual(['Ilana', 'Orval', 'Bea', 'Jefferson']);
   });
 });
