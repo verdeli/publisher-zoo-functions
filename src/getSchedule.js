@@ -1,7 +1,7 @@
 const data = require('../data/zoo_data');
 
 const { species, hours } = data;
-console.log(species, hours);
+// console.log(species, hours);
 
 const dias = ['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Monday'];
 
@@ -32,7 +32,6 @@ const funcionamento = {
   Sunday: diasFuncionamento('Sunday'),
   Monday: diasFuncionamento('Monday'),
 };
-
 function getSchedule(scheduleTarget) {
   // seu código aqui
   if (!scheduleTarget) return funcionamento;
